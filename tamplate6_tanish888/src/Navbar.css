@@ -1,0 +1,22 @@
+/* Add styles for mobile navigation */
+.mobilenav .monav {
+    display: none; /* Hide mobile menu by default */
+  }
+  
+  .mobilenav .mobilebar button {
+    background: none;
+    border: none;
+    height: 50px;
+    font-size: 24px;
+  }
+  
+  .monav {
+    display: block; /* Show the menu when it is visible */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+ 
